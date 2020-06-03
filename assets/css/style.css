@@ -72,10 +72,11 @@ a {
     margin-left: 20px;
 }
 
-.content h2 {
+h2 {
     text-align: center;
     font-size: 50px;
-    margin-bottom: 
+    margin-bottom: 25px;
+    color: #0d354e;
 }
 
 .content article {
@@ -113,23 +114,26 @@ p {
 /* Set width:20% and float:right to position benefits section to the right. */
 .benefits {
     margin-right: 20px;
-    padding: 20px;
     float: right;
     width: 20%;
-    background-color: #2589bd;
 }
 
-.benefits div {
+.benefits-sub {
+    background-color: #2589bd;
+    padding: 20px;
+}
+
+.benefits-sub div {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefits h3 {
+.benefits-sub h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefits img {
+.benefits-sub img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
