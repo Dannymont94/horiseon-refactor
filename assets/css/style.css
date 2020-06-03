@@ -8,10 +8,12 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Font for header and footer sections */
 .primary-font {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
 }
 
+/* Font for content and benefits sections */
 .secondary-font {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
 }
@@ -27,10 +29,12 @@ header h1 {
     font-size: 48px;
 }
 
+/* Different font color for "seo" letters in Horiseon */
 .seo {
     color: #d9dcd6;
 }
 
+/* Move page links in line with page title */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -39,24 +43,19 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
-    list-style-type: none;
-}
-
+/* Set page links side by side */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Set page links font color and remove underline */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/* Hero banner */
 .hero {
     height: 800px;
     width: 100%;
@@ -66,16 +65,7 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Set width:75% and display:inline-block to position benefits section to the right */
 .content {
     width: 75%;
     display: inline-block;
@@ -90,12 +80,15 @@ p {
     color: #ffffff;
 }
 
+/* Set float:left and width:30% to allow text to appear side by side */
 .content img {
     float: left;
     width: 30%;
     max-height: 200px;
+    height: 100%;
 }
 
+/* Set float:left and width:70% to allow img to appear side by side */
 .content div {
     float: left;
     width: 70%;
@@ -107,14 +100,16 @@ p {
     font-size: 36px;
 }
 
+p {
+    font-size: 16px;
+}
 
+/* Set width:20% and float:right to position benefits section to the right. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
     float: right;
     width: 20%;
-    height: 100%;
     background-color: #2589bd;
 }
 
