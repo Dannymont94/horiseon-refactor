@@ -66,7 +66,7 @@ a {
 }
 
 /* Set width:75% and display:inline-block to position benefits section to the right */
-.content {
+.what-we-do {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -79,7 +79,7 @@ h2 {
     color: #0d354e;
 }
 
-.content article {
+.what-we-do article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -88,7 +88,7 @@ h2 {
 }
 
 /* Set float:left and width:30% to allow img to appear side by side with text */
-.content img {
+.what-we-do img {
     float: left;
     width: 30%;
     max-height: 200px;
@@ -96,13 +96,13 @@ h2 {
 }
 
 /* Set float:left and width:70% to allow text to appear side by side with img */
-.content div {
+.what-we-do div {
     float: left;
     width: 70%;
     padding: 35px;
 }
 
-.content h3 {
+.what-we-do h3 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -123,7 +123,7 @@ p {
     padding: 20px;
 }
 
-.benefits-sub div {
+.benefits-sub article {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -139,6 +139,7 @@ p {
     max-width: 150px;
 }
 
+/* Set clear:both to prevent footer being side by side with floating benefits section*/
 footer {
     padding: 30px;
     clear: both;
