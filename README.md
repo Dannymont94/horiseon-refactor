@@ -10,6 +10,7 @@ Added alt tags to all img elements for increased accesibility.
 Restructured existing headings and added new headings to fall in sequential order.
 Added descriptive title for better client experience.
 Removed Develop folder and reorganized repository file structure.
+Added comments to codebase for better readability.
 
 Screenshots: 
 ![header and hero](https://user-images.githubusercontent.com/65088117/83608472-f8e2d680-a54a-11ea-816f-3804307d0889.png)

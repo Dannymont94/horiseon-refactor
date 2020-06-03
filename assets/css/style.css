@@ -139,7 +139,7 @@ p {
     max-width: 150px;
 }
 
-/* Set clear:both to prevent footer being side by side with floating benefits section*/
+/* Set clear:both to prevent footer rendering next to floating benefits section*/
 footer {
     padding: 30px;
     clear: both;
