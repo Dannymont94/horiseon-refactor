@@ -55,6 +55,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    font-size: 16px;
+}
+
 /* Hero banner */
 .hero {
     height: 800px;
@@ -65,6 +69,16 @@ a {
     background-position: center;
 }
 
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
 /* Set width:75% and display:inline-block to position benefits section to the right */
 .what-we-do {
     width: 75%;
@@ -72,14 +86,7 @@ a {
     margin-left: 20px;
 }
 
-h2 {
-    text-align: center;
-    font-size: 50px;
-    margin-bottom: 25px;
-    color: #0d354e;
-}
-
-.what-we-do article {
+.service {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -88,58 +95,43 @@ h2 {
 }
 
 /* Set float:left and width:30% to allow img to appear side by side with text */
-.what-we-do img {
-    float: left;
-    width: 30%;
+.service img {
     max-height: 200px;
-    height: 100%;
 }
 
-/* Set float:left and width:70% to allow text to appear side by side with img */
-.what-we-do div {
-    float: left;
-    width: 70%;
-    padding: 35px;
-}
-
-.what-we-do h3 {
+.service h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-p {
-    font-size: 16px;
-}
-
-/* Set width:20% and float:right to position benefits section to the right. */
+/* Set width:20% and float:right to position benefits section to the right */
 .benefits {
     margin-right: 20px;
+    padding: 20px;
+    clear: both;
     float: right;
     width: 20%;
-}
-
-.benefits-sub {
+    height: 100%;
     background-color: #2589bd;
-    padding: 20px;
 }
 
-.benefits-sub article {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefits-sub h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefits-sub img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Set clear:both to prevent footer rendering next to floating benefits section*/
+/* Set clear:both to prevent footer rendering next to floating benefits section */
 footer {
     padding: 30px;
     clear: both;
